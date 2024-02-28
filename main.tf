@@ -1,8 +1,8 @@
 provider "aws" {
   region                   = "us-east-1"
   // shared_credentials_files = ["/Users/rahulwagh/.aws/credentials"]
-  access_key               = "AKIAVRUVV6GBMWRPUJE6"
-  secret_key               = "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"
+  access_key               = ""
+  secret_key               = ""
 }
 resource "aws_iam_role" "lambda_role1" {
  name   = "terraform_aws_lambda_role1"
